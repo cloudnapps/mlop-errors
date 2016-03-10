@@ -1,0 +1,19 @@
+{
+  "name": "mlop-errors",
+  "version": "1.0.0",
+  "description": "micro-location open platform errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudnapps/mlop-errors.git"
+  },
+  "author": "GongXian Cao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudnapps/mlop-errors/issues"
+  },
+  "homepage": "https://github.com/cloudnapps/mlop-errors#readme"
+}
