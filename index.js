@@ -12,5 +12,10 @@ module.exports = {
   11005: 'failed to generate token, contact us',
   11006: 'failed to create user',
   11007: 'failed to hash password',
-  11008: 'failed to save user, please check if required field is correct'
+  11008: 'failed to save user, please check if required field is correct',
+  11009: 'failed to save file',
+  11010: 'failed to delete file',
+  11011: 'file not exist',
+  11012: 'error when read file',
+  11013: 'failed to create poi import task'
 };
