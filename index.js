@@ -2,9 +2,18 @@ module.exports = {
   '-1' : 'system busy, retry later',
   0    : 'success',
   1    : 'internal error, contact us',
+
+  10001: 'require appKey',
+  10002: 'require appSecret',
+  10003: 'require deviceId',
+  10004: 'invalid appKey',
+  10005: 'invalid appSecret',
+  10006: 'failed to create/update device, contact us',
   10007: 'invalid token',
   10008: 'token is expired',
+  10009: 'failed to generate token, contact us',
   10010: 'require token',
+  10011: 'require uploaded data file',
   11001: 'require username',
   11002: 'require password',
   11003: 'user not exist',
@@ -17,5 +26,11 @@ module.exports = {
   11010: 'failed to delete file',
   11011: 'file not exist',
   11012: 'error when read file',
-  11013: 'failed to create poi import task'
+  11013: 'failed to create poi import task',
+  11014: 'require clientKey',
+  11015: 'require clientSecret',
+  11016: 'client not exist',
+  11017: 'invalid clientKey',
+  11018: 'invalid clientSecret'
+
 };
