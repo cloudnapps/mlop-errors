@@ -37,5 +37,6 @@ module.exports = {
   40003: 'failed to update device, contact us',
   40004: 'failed to get updated device, contact us',
   40005: 'failed to queue poi import job',
-  40006: 'failed to find pois'
+  40006: 'failed to find regions',
+  40007: 'failed to find pois'
 };
