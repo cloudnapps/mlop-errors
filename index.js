@@ -5,7 +5,7 @@ module.exports = {
 
   10001: 'require appKey',
   10002: 'require appSecret',
-  10003: 'require deviceId',
+  10003: 'require deviceUDID',
   10004: 'invalid appKey',
   10005: 'invalid appSecret',
   10006: 'failed to create/update device, contact us',
