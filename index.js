@@ -33,9 +33,9 @@ module.exports = {
   11017: 'invalid clientKey',
   11018: 'invalid clientSecret',
   40001: 'failed to create device, contact us',
-  40002: 'failed to get created device, contact us',
+  40002: 'failed to get device, contact us',
   40003: 'failed to update device, contact us',
-  40004: 'failed to get updated device, contact us',
+  //40004: 'failed to get updated device, contact us',
   40005: 'failed to queue poi import job',
   40006: 'failed to find regions',
   40007: 'failed to find pois'
