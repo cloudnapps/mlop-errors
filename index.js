@@ -14,6 +14,7 @@ module.exports = {
   requireToken:                       { code: 10010,  message: 'require token'},
   requireDataFile:                    { code: 10011,  message: 'require uploaded data file'},
   requireAppBundle:                   { code: 10012,  message: 'require appBundle'},
+  failedToGetApp:                     { code: 10013,  message: 'failed to Get App'},
   requireUsername:                    { code: 11001,  message: 'require username'},
   requirePassword:                    { code: 11002,  message: 'require password'},
   userNotExist:                       { code: 11003,  message: 'user not exist'},
