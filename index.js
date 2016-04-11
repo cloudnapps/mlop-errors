@@ -14,7 +14,7 @@ module.exports = {
   requireToken:                       { code: 10010,  message: 'require token'},
   requireDataFile:                    { code: 10011,  message: 'require uploaded data file'},
   requireAppBundle:                   { code: 10012,  message: 'require appBundle'},
-  failedToGetApp:                     { code: 10013,  message: 'failed to Get App'},
+  failedToGetApp:                     { code: 10013,  message: 'rpc error, failed to Get App'},
   requireUsername:                    { code: 11001,  message: 'require username'},
   requirePassword:                    { code: 11002,  message: 'require password'},
   userNotExist:                       { code: 11003,  message: 'user not exist'},
@@ -39,5 +39,6 @@ module.exports = {
   failedToQueueDeviceDataCollectJob:  { code: 40004,  message: 'failed to queue device data collect job'},
   failedToQueuePoiImportJob:          { code: 40005,  message: 'failed to queue poi import job'},
   failedToFindRegions:                { code: 40006,  message: 'failed to find regions'},
-  failedToFindPois:                   { code: 40007,  message: 'failed to find pois'}
+  failedToFindPois:                   { code: 40007,  message: 'failed to find pois'},
+  failedToEnsureDevice:               { code: 40008,  message: 'rpc error, failed to ensure device'}
 };
