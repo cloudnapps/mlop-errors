@@ -19,7 +19,6 @@ module.exports = {
   requirePassword:                    { code: 11002,  message: 'require password'},
   userNotExist:                       { code: 11003,  message: 'user not exist'},
   passwordNotMatch:                   { code: 11004,  message: 'password not match'},
-  failedToGenerateToken:              { code: 11005,  message: 'failed to generate token, contact us'},
   failedToCreateUser:                 { code: 11006,  message: 'failed to create user'},
   failedToHashPassword:               { code: 11007,  message: 'failed to hash password'},
   failedToSaveUser:                   { code: 11008,  message: 'failed to save user, please check if required field is correct'},
@@ -27,7 +26,6 @@ module.exports = {
   failedToDeleteFile:                 { code: 11010,  message: 'failed to delete file'},
   fileNotExist:                       { code: 11011,  message: 'file not exist'},
   failedToReadFile:                   { code: 11012,  message: 'error when read file'},
-  failedToQueuePoiImportJob:          { code: 11013,  message: 'failed to create poi import task'},
   requireClientKey:                   { code: 11014,  message: 'require clientKey'},
   requireClientSecret:                { code: 11015,  message: 'require clientSecret'},
   clientNotExist:                     { code: 11016,  message: 'client not exist'},
@@ -46,5 +44,7 @@ module.exports = {
   failedToFindPois:                   { code: 40007,  message: 'failed to find pois'},
   failedToEnsureDevice:               { code: 40008,  message: 'rpc error, failed to ensure device'},
   requirePoiId:                       { code: 40009,  message: 'require poi id'},
-  poiNotExist:                        { code: 40010,  message: 'poi not exist'}
+  poiNotExist:                        { code: 40010,  message: 'poi not exist'},
+  requirePullRequest:                 { code: 40011,  message: 'require pull request info'},
+  poiNotReady:                        { code: 40012,  message: 'poi not ready'}
 };
