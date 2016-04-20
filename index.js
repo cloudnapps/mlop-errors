@@ -45,6 +45,6 @@ module.exports = {
   failedToEnsureDevice:               { code: 40008,  message: 'rpc error, failed to ensure device'},
   requirePoiId:                       { code: 40009,  message: 'require poi id'},
   poiNotExist:                        { code: 40010,  message: 'poi not exist'},
-  requirePullRequest:                 { code: 40011,  message: 'require pull request info'},
+  requirePoiPullRequest:              { code: 40011,  message: 'require poi pull request info'},
   poiNotReady:                        { code: 40012,  message: 'poi not ready'}
 };
