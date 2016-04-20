@@ -36,6 +36,7 @@ module.exports = {
   requirePoi:                         { code: 11020,  message: 'require poi'},
   requireOwner:                       { code: 11021,  message: 'require owner'},
   pendingPoiPullRequestExists:        { code: 11020,  message: 'pending poi pull request exists'},
+  failedToUpdatePoi:                  { code: 11021,  message: 'failed to update poi'},
   failedToCreateDevice:               { code: 40001,  message: 'failed to create device, contact us'},
   failedToGetDevice:                  { code: 40002,  message: 'failed to get device, contact us'},
   failedToUpdateDevice:               { code: 40003,  message: 'failed to update device, contact us'},
