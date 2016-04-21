@@ -15,7 +15,6 @@ module.exports = {
   requireDataFile:                    { code: 10011,  message: 'require uploaded data file'},
   requireAppBundle:                   { code: 10012,  message: 'require appBundle'},
   failedToGetApp:                     { code: 10013,  message: 'rpc error, failed to Get App'},
-  requireUserId:                      { code: 10014,  message: 'require user id'},
   requireUsername:                    { code: 11001,  message: 'require username'},
   requirePassword:                    { code: 11002,  message: 'require password'},
   userNotExist:                       { code: 11003,  message: 'user not exist'},
@@ -32,6 +31,10 @@ module.exports = {
   clientNotExist:                     { code: 11016,  message: 'client not exist'},
   invalidClientKey:                   { code: 11017,  message: 'invalid clientKey'},
   invalidClientSecret:                { code: 11018,  message: 'invalid clientSecret'},
+  requirePoi:                         { code: 11020,  message: 'require poi'},
+  requireOwner:                       { code: 11021,  message: 'require owner'},
+  pendingPoiPullRequestExists:        { code: 11020,  message: 'pending poi pull request exists'},
+  failedToUpdatePoi:                  { code: 11021,  message: 'failed to update poi'},
   failedToCreateDevice:               { code: 40001,  message: 'failed to create device, contact us'},
   failedToGetDevice:                  { code: 40002,  message: 'failed to get device, contact us'},
   failedToUpdateDevice:               { code: 40003,  message: 'failed to update device, contact us'},
@@ -42,6 +45,8 @@ module.exports = {
   failedToEnsureDevice:               { code: 40008,  message: 'rpc error, failed to ensure device'},
   requirePoiId:                       { code: 40009,  message: 'require poi id'},
   poiNotExist:                        { code: 40010,  message: 'poi not exist'},
-  requirePullRequest:                 { code: 40011,  message: 'require pull request info'},
-  poiNotReady:                        { code: 40012,  message: 'poi not ready'}
+  requirePoiPullRequest:              { code: 40011,  message: 'require poi pull request info'},
+  poiNotReady:                        { code: 40012,  message: 'poi not ready'},
+  failedToFindPoiPullRequest:         { code: 40011,  message: 'failed to find poi pull request, contact us'},
+  poiPullRequestNotExist:             { code: 40011,  message: 'poi pull request not exist'}
 };
