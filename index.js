@@ -50,5 +50,6 @@ module.exports = {
   poiNotReady:                        { code: 40013,  message: 'poi not ready'},
   failedToFindPoiPullRequest:         { code: 40014,  message: 'failed to find poi pull request, contact us'},
   poiPullRequestNotExist:             { code: 40015,  message: 'poi pull request not exist'},
-  poiPullRequestNotActive:            { code: 40016,  message: 'poi pull request not active'}
+  poiPullRequestNotActive:            { code: 40016,  message: 'poi pull request not active'},
+  failedToUpdatePoiPullRequest:       { code: 40017,  message: 'failed to update poi pull request'}
 };
