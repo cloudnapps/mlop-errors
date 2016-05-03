@@ -67,5 +67,6 @@ module.exports = {
   requireApp:                         { code: 40031, message: 'require app'},
   notYourApp:                         { code: 40032, message: 'app is not yours'},
   failedToFindApp:                    { code: 41002, message: 'failed to get app, check if appKey is valid'},
-  appNotExist:                        { code: 41003, message: 'app not exist'}
+  appNotExist:                        { code: 41003, message: 'app not exist'},
+  failedToUpdateApp:                  { code: 41004, message: 'failed to update app'}
 };
