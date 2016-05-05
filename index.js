@@ -68,6 +68,7 @@ module.exports = {
   failedToDestroyScenario:            { code: 40032, message: 'failed to destroy scenario'},
   requireApp:                         { code: 40033, message: 'require app'},
   notYourApp:                         { code: 40034, message: 'app is not yours'},
+  failedToUpdateScenarioLastOperation:{ code: 40035, message: 'failed to update scenario last operation'},
   failedToFindApp:                    { code: 41002, message: 'failed to get app, check if appKey is valid'},
   appNotExist:                        { code: 41003, message: 'app not exist'},
   failedToUpdateApp:                  { code: 41004, message: 'failed to update app'}
