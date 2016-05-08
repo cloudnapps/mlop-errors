@@ -69,6 +69,13 @@ module.exports = {
   requireApp:                         { code: 40033, message: 'require app'},
   notYourApp:                         { code: 40034, message: 'app is not yours'},
   failedToUpdateScenarioLastOperation:{ code: 40035, message: 'failed to update scenario last operation'},
+  requireAppPlatformSettingsId:       { code: 40036, message: 'require app platform settings id'},
+  failedToFindAppPlatformSettings:    { code: 40037, message: 'failed to find app platform settings'},
+  appPlatformSettingsNotExist:        { code: 40038, message: 'app platform settings not exist'},
+  failedToCreateAppPlatformSettings:  { code: 40039, message: 'failed to create app platform settings'},
+  failedToUpdateAppPlatformSettings:  { code: 40040, message: 'failed to update app platform settings'},
+  failedToDestroyAppPlatformSettings: { code: 40041, message: 'failed to destroy app platform settings'},
+
   failedToFindApp:                    { code: 41002, message: 'failed to get app, check if appKey is valid'},
   appNotExist:                        { code: 41003, message: 'app not exist'},
   failedToUpdateApp:                  { code: 41004, message: 'failed to update app'}
