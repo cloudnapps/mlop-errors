@@ -78,5 +78,12 @@ module.exports = {
 
   failedToFindApp:                    { code: 41002, message: 'failed to get app, check if appKey is valid'},
   appNotExist:                        { code: 41003, message: 'app not exist'},
-  failedToUpdateApp:                  { code: 41004, message: 'failed to update app'}
+  failedToUpdateApp:                  { code: 41004, message: 'failed to update app'},
+  requireAdId:                        { code: 42001, message: 'require ad id'},
+  failedToFindAd:                     { code: 42002, message: 'failed to find ad'},
+  adNotExist:                         { code: 42003, message: 'ad not exist'},
+  requireAd:                          { code: 42004, message: 'require ad'},
+  failedToCreateAd:                   { code: 42005, message: 'failed to create ad'},
+  failedToUpdateAd:                   { code: 42006, message: 'failed to update ad'},
+  failedToDestroyAd:                  { code: 42007, message: 'failed to destroy ad'}
 };
