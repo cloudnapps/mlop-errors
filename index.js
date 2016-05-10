@@ -35,6 +35,13 @@ module.exports = {
   requireOwner:                       { code: 11021, message: 'require owner'},
   pendingPoiPullRequestExists:        { code: 11020, message: 'pending poi pull request exists'},
   failedToUpdatePoi:                  { code: 11021, message: 'failed to update poi'},
+  failedToFindResource:               { code: 12001, message: 'failed to find specified resource'},
+  wrongParameter:                     { code: 12003, message: 'wrong parameter'}
+  failedToValidateEmail:              { code: 14001, message: 'failed to validate email'},
+  failedToSendMail:                   { code: 14026, message: 'failed to send mail'},
+  alreadyActivated:                   { code: 14028, message: 'already activated'},
+  invalidPasswordResetCode:           { code: 14029, message: 'invalid password reset code'},
+  requireUserOrCodeToResetPassword:   { code: 14031, message: 'require user or code to reset password'},
   failedToCreateDevice:               { code: 40001, message: 'failed to create device, contact us'},
   failedToGetDevice:                  { code: 40002, message: 'failed to get device, contact us'},
   failedToUpdateDevice:               { code: 40003, message: 'failed to update device, contact us'},
