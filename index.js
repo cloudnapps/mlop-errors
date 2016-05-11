@@ -36,7 +36,9 @@ module.exports = {
   pendingPoiPullRequestExists:        { code: 11020, message: 'pending poi pull request exists'},
   failedToUpdatePoi:                  { code: 11021, message: 'failed to update poi'},
   failedToFindResource:               { code: 12001, message: 'failed to find specified resource'},
-  wrongParameter:                     { code: 12003, message: 'wrong parameter'}
+  wrongParameter:                     { code: 12003, message: 'wrong parameter'},
+  failedToFindUserBehaviors:          { code: 12004, message: 'failed to find user behaviors'},
+  failedToFindCubePoint:              { code: 12005, message: 'failed to find cube point'},
   failedToValidateEmail:              { code: 14001, message: 'failed to validate email'},
   failedToSendMail:                   { code: 14026, message: 'failed to send mail'},
   alreadyActivated:                   { code: 14028, message: 'already activated'},
