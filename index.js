@@ -35,6 +35,7 @@ module.exports = {
   requireOwner:                       { code: 11021, message: 'require owner'},
   pendingPoiPullRequestExists:        { code: 11020, message: 'pending poi pull request exists'},
   failedToUpdatePoi:                  { code: 11021, message: 'failed to update poi'},
+  failedToGetPoi:                     { code: 11022, message: 'rpc error, failed to get poi'},
   failedToFindResource:               { code: 12001, message: 'failed to find specified resource'},
   wrongParameter:                     { code: 12003, message: 'wrong parameter'}
   failedToValidateEmail:              { code: 14001, message: 'failed to validate email'},
