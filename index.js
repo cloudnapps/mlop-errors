@@ -37,7 +37,9 @@ module.exports = {
   failedToUpdatePoi:                  { code: 11021, message: 'failed to update poi'},
   failedToGetPoi:                     { code: 11022, message: 'rpc error, failed to get poi'},
   failedToFindResource:               { code: 12001, message: 'failed to find specified resource'},
-  wrongParameter:                     { code: 12003, message: 'wrong parameter'}
+  wrongParameter:                     { code: 12003, message: 'wrong parameter'},
+  failedToFindUserBehaviors:          { code: 12004, message: 'failed to find user behaviors'},
+  failedToFindCubePoint:              { code: 12005, message: 'failed to find cube point'},
   failedToValidateEmail:              { code: 14001, message: 'failed to validate email'},
   failedToSendMail:                   { code: 14026, message: 'failed to send mail'},
   alreadyActivated:                   { code: 14028, message: 'already activated'},
@@ -93,5 +95,7 @@ module.exports = {
   requireAd:                          { code: 42004, message: 'require ad'},
   failedToCreateAd:                   { code: 42005, message: 'failed to create ad'},
   failedToUpdateAd:                   { code: 42006, message: 'failed to update ad'},
-  failedToDestroyAd:                  { code: 42007, message: 'failed to destroy ad'}
+  failedToDestroyAd:                  { code: 42007, message: 'failed to destroy ad'},
+  failedToUpdateAdLastOperation:      { code: 42008, message: 'failed to update ad last operation'},
+  failedToUpdateAppLastOperation:     { code: 42009, message: 'failed to update app last operation'}
 };
