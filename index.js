@@ -94,5 +94,7 @@ module.exports = {
   requireAd:                          { code: 42004, message: 'require ad'},
   failedToCreateAd:                   { code: 42005, message: 'failed to create ad'},
   failedToUpdateAd:                   { code: 42006, message: 'failed to update ad'},
-  failedToDestroyAd:                  { code: 42007, message: 'failed to destroy ad'}
+  failedToDestroyAd:                  { code: 42007, message: 'failed to destroy ad'},
+  failedToUpdateAdLastOperation:      { code: 42008, message: 'failed to update ad last operation'},
+  failedToUpdateAppLastOperation:     { code: 42009, message: 'failed to update app last operation'}
 };
