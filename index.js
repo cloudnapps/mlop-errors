@@ -85,7 +85,7 @@ module.exports = {
   failedToCreateAppPlatformSettings:  { code: 40039, message: 'failed to create app platform settings'},
   failedToUpdateAppPlatformSettings:  { code: 40040, message: 'failed to update app platform settings'},
   failedToDestroyAppPlatformSettings: { code: 40041, message: 'failed to destroy app platform settings'},
-
+  failedToQueuePoiExportJob:          { code: 40042, message: 'failed to queue poi export job'},
   failedToFindApp:                    { code: 41002, message: 'failed to get app, check if appKey is valid'},
   appNotExist:                        { code: 41003, message: 'app not exist'},
   failedToUpdateApp:                  { code: 41004, message: 'failed to update app'},
@@ -97,6 +97,5 @@ module.exports = {
   failedToUpdateAd:                   { code: 42006, message: 'failed to update ad'},
   failedToDestroyAd:                  { code: 42007, message: 'failed to destroy ad'},
   failedToUpdateAdLastOperation:      { code: 42008, message: 'failed to update ad last operation'},
-  failedToUpdateAppLastOperation:     { code: 42009, message: 'failed to update app last operation'},
-  failedToQueuePoiExportJob:          { code: 40005, message: 'failed to queue poi export job'}
+  failedToUpdateAppLastOperation:     { code: 42009, message: 'failed to update app last operation'}
 };
