@@ -85,7 +85,7 @@ module.exports = {
   failedToCreateAppPlatformSettings:  { code: 40039, message: 'failed to create app platform settings'},
   failedToUpdateAppPlatformSettings:  { code: 40040, message: 'failed to update app platform settings'},
   failedToDestroyAppPlatformSettings: { code: 40041, message: 'failed to destroy app platform settings'},
-
+  failedToQueuePoiExportJob:          { code: 40042, message: 'failed to queue poi export job'},
   failedToFindApp:                    { code: 41002, message: 'failed to get app, check if appKey is valid'},
   appNotExist:                        { code: 41003, message: 'app not exist'},
   failedToUpdateApp:                  { code: 41004, message: 'failed to update app'},
