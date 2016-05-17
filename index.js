@@ -97,5 +97,7 @@ module.exports = {
   failedToUpdateAd:                   { code: 42006, message: 'failed to update ad'},
   failedToDestroyAd:                  { code: 42007, message: 'failed to destroy ad'},
   failedToUpdateAdLastOperation:      { code: 42008, message: 'failed to update ad last operation'},
-  failedToUpdateAppLastOperation:     { code: 42009, message: 'failed to update app last operation'}
+  failedToUpdateAppLastOperation:     { code: 42009, message: 'failed to update app last operation'},
+  requireJobId:                       { code: 50001, message: 'require job id'},
+  failedToGetJob:                     { code: 50002, message: 'failed to get job status'}
 };
