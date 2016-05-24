@@ -100,6 +100,10 @@ module.exports = {
   failedToUpdateAppLastOperation:     { code: 42009, message: 'failed to update app last operation'},
   requireUmm:                         { code: 42010, message: 'require umm'},
   requirePoiIdOrUmm:                  { code: 42011, message: 'require poi id or umm'},
+  requireDevice:                      { code: 42012, message: 'require device'},
+  requireAdClick:                     { code: 42013, message: 'require ad click'},
+  failedToCreateAdClick:              { code: 42014, message: 'failed to create ad click'},
+  invalidAdSignature:                 { code: 42015, message: 'invalid ad signature'},
   requireJobId:                       { code: 50001, message: 'require job id'},
   failedToGetJob:                     { code: 50002, message: 'failed to get job status'}
 };
