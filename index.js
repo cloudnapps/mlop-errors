@@ -104,6 +104,8 @@ module.exports = {
   requireAdClick:                     { code: 42013, message: 'require ad click'},
   failedToCreateAdClick:              { code: 42014, message: 'failed to create ad click'},
   invalidAdSignature:                 { code: 42015, message: 'invalid ad signature'},
+  cubePointNotExist:                  { code: 42016, message: 'cube point not exist'},
+  failedToFindCubePoint:              { code: 42017, message: 'failed to find cube point'},
   requireJobId:                       { code: 50001, message: 'require job id'},
   failedToGetJob:                     { code: 50002, message: 'failed to get job status'}
 };
