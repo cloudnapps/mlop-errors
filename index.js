@@ -100,6 +100,7 @@ module.exports = {
   invalidAdSignature:                 { code: 50006, message: 'invalid ad signature'},
   cubePointNotExist:                  { code: 51001, message: 'cube point not exist'},
   failedToFindCubePoint:              { code: 51002, message: 'failed to find cube point'},
+  cubePointAggregationFailed:         { code: 51003, message: 'failed to aggregate cube point'},
   failedToFindResource:               { code: 52001, message: 'failed to find specified resource'},
   failedToFindUserBehaviors:          { code: 52002, message: 'failed to find user behaviors'},
   failedToQueueDeviceDataCollectJob:  { code: 70001, message: 'failed to queue device data collect job'},
