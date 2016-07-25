@@ -30,6 +30,7 @@ module.exports = {
   alreadyActivated:                   { code: 21003, message: 'already activated'},
   invalidPasswordResetCode:           { code: 21004, message: 'invalid password reset code'},
   requireUserOrCodeToResetPassword:   { code: 21005, message: 'require user or code to reset password'},
+  invalidActivationCode:              { code: 21006, message: 'invalid activation code'},
   wrongParameter:                     { code: 30001, message: 'wrong parameter'},
   requireOwner:                       { code: 30002, message: 'require owner'},
   requireDataFile:                    { code: 40001, message: 'require uploaded data file'},
