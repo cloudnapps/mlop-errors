@@ -70,6 +70,7 @@ module.exports = {
   failedToFindApp:                    { code: 43003, message: 'failed to get app, check if appKey is valid'},
   appNotExist:                        { code: 43004, message: 'app not exist'},
   failedToUpdateApp:                  { code: 43005, message: 'failed to update app'},
+  requireAppId:                       { code: 43006, message: 'require app id'},
   requireAppPlatformSettingsId:       { code: 43101, message: 'require app platform settings id'},
   failedToFindAppPlatformSettings:    { code: 43102, message: 'failed to find app platform settings'},
   appPlatformSettingsNotExist:        { code: 43103, message: 'app platform settings not exist'},
