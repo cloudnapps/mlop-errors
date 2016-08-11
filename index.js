@@ -25,6 +25,7 @@ module.exports = {
   failedToCreateUser:                 { code: 20005, message: 'failed to create user'},
   failedToHashPassword:               { code: 20006, message: 'failed to hash password'},
   failedToSaveUser:                   { code: 20007, message: 'failed to save user, please check if required field is correct'},
+  userAlreadySignup:                  { code: 20008, message: 'failed to signup, user already signup'},
   failedToValidateEmail:              { code: 21001, message: 'failed to validate email'},
   failedToSendMail:                   { code: 21002, message: 'failed to send mail'},
   alreadyActivated:                   { code: 21003, message: 'already activated'},
