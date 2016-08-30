@@ -39,6 +39,8 @@ module.exports = {
   failedToReadFile:                   { code: 40003, message: 'error when read file'},
   failedToSaveFile:                   { code: 40004, message: 'failed to save file'},
   failedToDeleteFile:                 { code: 40005, message: 'failed to delete file'},
+  requireFileBucket:                  { code: 40006, message: 'require file bucket'},
+  requireFilePath:                    { code: 40007, message: 'require file path'},
   failedToGetDevice:                  { code: 40801, message: 'failed to get device, contact us'},
   failedToSaveDevice:                 { code: 40802, message: 'failed to create/update device, contact us'},
   failedToCreateDevice:               { code: 40803, message: 'failed to create device, contact us'},
