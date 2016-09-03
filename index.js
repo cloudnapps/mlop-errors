@@ -112,5 +112,6 @@ module.exports = {
   failedToQueuePoiImportJob:          { code: 70101, message: 'failed to queue poi import job'},
   failedToQueuePoiExportJob:          { code: 70102, message: 'failed to queue poi export job'},
   requireJobId:                       { code: 80001, message: 'require job id'},
-  failedToGetJob:                     { code: 80002, message: 'failed to get job status'}
+  failedToGetJob:                     { code: 80002, message: 'failed to get job status'},
+  failedToFindJob:                    { code: 80003, message: 'failed to find job'}
 };
