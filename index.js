@@ -34,6 +34,7 @@ module.exports = {
   FailedToFindRegionsError:                     'failed to find regions',
   FailedToFindResourceError:                    'failed to find specified resource',
   FailedToFindScenarioError:                    'failed to find scenario',
+  FailedToFindUsersError:                       'failed to find users',
   FailedToFindUserBehaviorsError:               'failed to find user behaviors',
   FailedToGenerateTokenError:                   'failed to generate token, contact us',
   FailedToGetAppError:                          'rpc error, failed to Get App',
