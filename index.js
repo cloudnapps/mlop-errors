@@ -46,6 +46,7 @@ module.exports = {
   FailedToQueueDeviceDataCollectJobError:       'failed to queue device data collect job',
   FailedToQueuePoiExportJobError:               'failed to queue poi export job',
   FailedToQueuePoiImportJobError:               'failed to queue poi import job',
+  FailedToQueuePoiRevertJobError:               'failed to queue poi revert job',
   FailedToReadFileError:                        'error when read file',
   FailedToSaveDeviceError:                      'failed to create/update device, contact us',
   FailedToSaveFileError:                        'failed to save file',
