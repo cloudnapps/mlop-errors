@@ -114,7 +114,7 @@ module.exports = {
   RequireTokenError:                            'require token',
   RequireUmmError:                              'require beacon umm',
   RequireBssidError:                            'require wifi bssid',
-  RequireUmmOrBssidError:                       'require beacon umm or wifi bssid',
+  RequireBeaconsOrWifisOrLocationError:         'require beacon or wifi or location',
   RequireUsernameError:                         'require username',
   RequireUserOrCodeToResetPasswordError:        'require user or code to reset password',
   ScenarioNotExistError:                        'scenario not exist',
