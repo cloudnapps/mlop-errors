@@ -75,6 +75,7 @@ module.exports = {
   InvalidClientSecretError:                     'invalid clientSecret',
   InvalidPasswordResetCodeError:                'invalid password reset code',
   InvalidTokenError:                            'invalid token',
+  InvalidLocationError:                         'invalid location',
   NotYourAppError:                              'app is not yours',
   PasswordNotMatchError:                        'password not match',
   PendingPoiPullRequestExistsError:             'pending poi pull request exists',
