@@ -65,6 +65,7 @@ module.exports = {
   FailedToUpdateScenarioLastOperationError:     'failed to update scenario last operation',
   FailedToUploadDeviceDataError:                'failed to upload data',
   FailedToValidateEmailError:                   'failed to validate email',
+  FailedToReadCertificateError:                 'failed to read certificate, please check the password is correct'
   FileNotExistError:                            'file not exist',
   InternalError:                                'internal error, contact us',
   InvalidActivationCodeError:                   'invalid activation code',
