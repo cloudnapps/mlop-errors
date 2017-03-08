@@ -47,6 +47,7 @@ module.exports = {
   FailedToQueuePoiExportJobError:               'failed to queue poi export job',
   FailedToQueuePoiImportJobError:               'failed to queue poi import job',
   FailedToQueuePoiRevertJobError:               'failed to queue poi revert job',
+  FailedToQueuePoiRemoveJobError:               'failed to queue poi remove job',
   FailedToReadFileError:                        'error when read file',
   FailedToSaveDeviceError:                      'failed to create/update device, contact us',
   FailedToSaveFileError:                        'failed to save file',
