@@ -23,6 +23,7 @@ module.exports = {
   FailedToDestroyAttachmentError:               'failed to destroy attachment',
   FailedToDestroyMPoiWifiRuleError:             'failed to destroy poi wifi rule',
   FailedToDestroyScenarioError:                 'failed to destroy scenario',
+  FailedToDestroyScheduleError:                 'failed to destroy schedule',
   FailedToEnsureDeviceError:                    'rpc error, failed to ensure device',
   FailedToExportPoiError:                       'failed to export poi',
   FailedToFindAdError:                          'failed to find ad',
