@@ -7,6 +7,7 @@ module.exports = {
   ClientNotExistError:                          'client not exist',
   CubePointAggregationFailedError:              'failed to aggregate cube point',
   CubePointNotExistError:                       'cube point not exist',
+  DuplicateKeyError:                            'duplicate key',
   FailedToCreateAdClickError:                   'failed to create ad click',
   FailedToCreateAdError:                        'failed to create ad',
   FailedToCreateAppPlatformSettingsError:       'failed to create app platform settings',
